@@ -1,0 +1,111 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.app-header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header .logo a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.app-nav ul li {
+    margin-left: 20px;
+}
+
+.app-nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.app-nav ul li a:hover {
+    color: #007bff;
+}
+
+.app-main {
+    padding: 20px;
+    flex: 1;
+}
+
+.app-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Enhanced Navbar Styles */
+.app-nav ul.nav-links {
+    display: flex;
+    align-items: center; /* Vertically center the links */
+    padding: 0 20px; /* Add some padding */
+}
+
+.app-nav ul.nav-links li {
+    margin: 0; /* Reset default margins */
+    margin-left: 25px; /* Space out the links */
+}
+
+.app-nav ul.nav-links li:first-child {
+    margin-left: 0; /* No margin on the first link */
+}
+
+.app-nav ul.nav-links li a {
+    color: #555; /* Slightly darker text */
+    padding: 10px 15px; /* Add padding to the links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.app-nav ul.nav-links li a:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    color: #333; /* Darker text on hover */
+}
+
+/* Active Link Style (optional, requires JavaScript to determine active link) */
+.app-nav ul.nav-links li a.active {
+    color: #007bff; /* Highlight the active link */
+    font-weight: 600; /* Make it bold */
+}
+
+/* Username and Logout Button Styles */
+.app-nav ul.nav-links li .username {
+    color: #007bff; /* Highlight the username */
+    font-weight: 600;
+}
+
+.app-nav ul.nav-links li .logout-button {
+    background-color: #dc3545; /* Red color for logout button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.app-nav ul.nav-links li .logout-button:hover {
+    background-color: #c82333;
+}

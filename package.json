@@ -1,0 +1,29 @@
+{
+  "name": "gov-schemes-challan",
+  "version": "1.0.0",
+  "description": "A website for government schemes and challan verification",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.4"
+  },
+  "keywords": [
+    "government",
+    "schemes",
+    "challan",
+    "verification"
+  ],
+  "author": "Bolt",
+  "license": "ISC"
+}
